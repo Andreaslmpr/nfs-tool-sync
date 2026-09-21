@@ -1,0 +1,26 @@
+# build artifacts
+*.o
+nfs_manager
+nfs_client
+nfs_console
+
+# runtime logs and demo data
+*.log
+conf.txt
+src_dir_wsl/
+tgt_dir_wsl/
+
+# test output
+nfs_tests.*/
+
+# editor settings
+.vscode/
+
+# course material (not redistributed)
+*.pdf
+hw2-Andreaslmpr/
+sysprotest/
+config_fss.cfg
+config_nfs.cfg
+test_case_fss_commands.txt
+test_case_nfs_commands.txt
